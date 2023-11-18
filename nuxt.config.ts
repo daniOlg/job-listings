@@ -8,4 +8,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  head: {
+    link: [
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" }
+    ]
+  },
 })
