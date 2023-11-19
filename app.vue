@@ -1,5 +1,6 @@
 <template>
-  <div>
-    <h1>Hello world</h1>
+  <div class="p-5 flex flex-col gap-5 mt-28">
+    <SelectedFilters />
+    <JobsList />
   </div>
 </template>
