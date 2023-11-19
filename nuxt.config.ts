@@ -13,4 +13,5 @@ export default defineNuxtConfig({
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" }
     ]
   },
+  modules: ['@pinia/nuxt', "@nuxt/image"],
 })
